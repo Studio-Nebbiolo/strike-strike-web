@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>Strike-Strike 2 · 볼 미리보기</title>
+    <style>
+      html, body { margin: 0; height: 100%; overflow: hidden; background: #14161a; color: #cfd6e0;
+        font: 13px/1.4 system-ui, -apple-system, 'Segoe UI', sans-serif; }
+      #gl { display: block; width: 100vw; height: 100vh; }
+      #hint { position: fixed; top: 10px; left: 0; right: 0; text-align: center; color: #7b8492; }
+      #labels { position: fixed; inset: 0; pointer-events: none; }
+      .lab { position: absolute; transform: translate(-50%, 0); text-align: center; white-space: nowrap; }
+      .lab b { display: block; font-size: 13px; color: #fff; }
+      .lab span { font-size: 11px; color: #8d97a6; }
+    </style>
+    <script type="module" crossorigin src="./assets/balls-Bqzsq72r.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/pin-Bzq8Je47.js">
+  </head>
+  <body>
+    <canvas id="gl"></canvas>
+    <div id="hint">볼 미리보기 · 드래그로 회전 · 스페이스로 자동 회전 토글</div>
+    <div id="labels"></div>
+  </body>
+</html>
